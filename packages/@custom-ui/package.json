@@ -1,0 +1,22 @@
+{
+  "name": "custom-ui",
+  "version": "1.0.0",
+  "description": "Simple UI library with custom input elements.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "link": "npm run build && cd dist && npm link"
+  },
+  "keywords": [
+    "NumericInput",
+    "CalcInput",
+    "CustomUI"
+  ],
+  "author": "Max Abzaloff",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
